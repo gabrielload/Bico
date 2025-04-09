@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BICO - Encontre o profissional certo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --verde-bico: #67b56b;
+      --verde-hover: #4e9a53;
+      --cinza-texto: #333c39;
+      --bege-fundo: #fdf7f2;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bege-fundo);
+      color: var(--cinza-texto);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 600px;
+      width: 100%;
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+      font-size: 26px;
+    }
+
+    .logo img {
+      width: 50px;
+      margin-right: 12px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      color: var(--cinza-texto);
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .btn-whatsapp {
+      margin-top: 30px;
+      background-color: var(--verde-bico);
+      color: white;
+      border: none;
+      padding: 16px 28px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-block;
+      box-shadow: 0 5px 15px rgba(103, 181, 107, 0.3);
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .btn-whatsapp:hover {
+      background-color: var(--verde-hover);
+      transform: scale(1.03);
+    }
+
+    .secure {
+      margin-top: 20px;
+      font-size: 13px;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 30px 20px;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .btn-whatsapp {
+        padding: 14px 24px;
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <img src="logo.png" alt="Ícone BICO" style="width: 80px; margin-bottom: 20px;" />
+
+    <h1>Peça ajuda no WhatsApp com o BICO</h1>
+    <p>Descreva o serviço que precisa e o BICO encontra o profissional ideal para você.</p>
+    <p>Rápido, prático e gratuito.</p>
+
+    <a href="https://wa.me/5551981710971" class="btn-whatsapp" target="_blank">
+      🤖 Falar com o BICO no WhatsApp
+    </a>
+
+    <div class="secure">
+      🔒 Seus dados estão protegidos com segurança e sigilo.
+    </div>
+  </div>
+</body>
+</html>
